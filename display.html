@@ -1,0 +1,290 @@
+<html>
+    <head>
+        <title>
+            TASK
+        </title>
+        <style>
+          *{margin: 0px auto;}
+          #main
+                {
+                     width: 95%;   
+                     
+                }
+          #header
+                {
+                    width:100%;
+                    height:100px;
+                    margin-top: 10px;
+                    /* border: gray 1px solid; */
+                    background-color: rgb(202, 199, 223);
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content:center;
+                    color: rgb(51, 51, 97);
+                    font-weight: bold;
+                    border-radius: 10px 10px 10px 10px;
+
+                }
+          #menu
+                {
+                    width:100%;
+                    height:60px;
+                    /* border: gray 1px solid; */
+                    background-color: rgb(201, 223, 236);
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content:center;
+                    border-radius: 20px 20px 20px 20px;
+
+                }
+          #leftsidebar
+                {        
+                    width:19%;
+                    height:450px;
+                    background-color: rgb(163, 205, 228);
+                    border: gray 1px;
+                    float: left;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content:center;
+                    border-radius: 30px 30px 30px 30px;
+                    /* border-style:solid;
+                    border-left-width:initial; */
+
+                }
+          #maincontent
+                {             
+                  width:60%;
+                  height:450px;
+                  background-color: rgb(216, 219, 221);
+                  border: gray 1px;
+                  float:left;
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-content:center;
+                  border-radius: 10px 10px 10px 10px;
+                  
+
+                }
+          #rightsidebar
+                 {                 
+                  width:19%;
+                  height:450px;
+                  background-color: rgb(163, 205, 228);
+                  border: gray 1px;
+                  float: left;
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-content:center;
+                  border-radius: 30px 30px 30px 30px;
+                  /* border-style:solid;
+                  border-right-width:initial;
+                   */
+                 }
+          #footer
+                {
+                width:100%;
+                height:60px;
+                /* border: gray 1px solid; */
+                float: left;
+                background-color: rgb(202, 199, 223);
+                display: flex;
+                flex-wrap: wrap;
+                align-content:center;
+                border-radius: 10px 10px 10px 10px;
+                }
+          .clr
+                {
+                    clear: both;
+                }
+          img {
+            
+                  width: 50%;
+                  height:100%;
+                  object-fit: fill; 
+                  /* display: block; */
+                  margin-left: auto;
+                  margin-right: auto;
+                  
+              }
+          a {
+            text-decoration: solid rgb(16, 16, 65);
+            /* text-align-last: center; */
+            padding:80px;
+            }
+
+           th{
+                height: 50px;
+             }
+
+        @media screen and (max-width:1020px)
+        {
+            #header{
+                color: darkred;
+                width:100%;
+                font-size: 15px;
+            }
+            #menu{
+                width:100%;
+                font-size: 5px;
+            }
+            
+            #leftsidebar{
+                width: 20%;
+            }
+            #list{
+                font-size: 80%;
+            }
+            #maincontent{
+                width: 60%;
+            }
+
+            #rightsidebar{
+                width: 20%;
+            }
+            #footer{
+                width:100%;
+            }
+            
+        }
+        @media screen and (max-width:810px)
+        {
+            #header{
+                color: darkred;
+                width:100%;
+                font-size: 15px;
+            }
+            #menu{
+                width:100%;
+                font-size: 5px;
+            }
+            
+            #leftsidebar{
+                width: 20%;
+            }
+            #list{
+                font-size: 80%;
+            }
+            #maincontent{
+                width: 60%;
+            }
+
+            #rightsidebar{
+                width: 20%;
+            }
+            #footer{
+                width:100%;
+            }
+        }
+        @media screen and (max-width:510px)
+        {
+            #header{
+                color: darkred;
+                width:100%;
+                font-size: 15px;
+            }
+            #menu{
+                width:100%;
+                font-size: 5px;
+            }
+            
+            #leftsidebar{
+                width: 20%;
+            }
+            #list{
+                font-size: 50%;
+            }
+            #maincontent{
+                width: 60%;
+                font-size: 12px;
+            }
+
+            #rightsidebar{
+                width: 20%;
+                font-size: 10px;
+            }
+            #footer{
+                width:100%;
+            }
+        }
+
+
+        </style>
+    </head>
+
+    <body>
+        <main id="main">
+            <header id="header">
+                <!-- <h1>ZEAL  COLLEGE  OF  ENGINEERING  AND  RESEARCH </h1> -->
+                <img src="zcoerlogo.png" alt="NO IMAGE" > 
+            </header>
+
+            <section id="menu">
+                <ul>
+
+
+                    <table id="tab">
+                        <tr>
+                            <th id="t1"><a href="#">HOME</a></th>
+                            <th id="t1"><a href="#">GALLERY</a></th>
+                            <th id="t1"><a href="#">CONTACT US</a></th>
+                            <th id="t1"><a href="#">ABOUT US</a></th>
+                        </tr>
+                         <!-- <tr>
+                            <th colspan="3"><marquee>  Admission Open!!!  </marquee></th>
+                        </tr> -->
+                    </table> 
+                </ul>
+            </section>
+
+            <section id="content">
+                    <div id="leftsidebar">
+                        <h2 id="list">List Of Courses :</h2><br><br>
+                        <ul id="list">
+                            <li>MECHANICAL ENGINEERING</li><br>
+                            <li>COMPUTER ENGINEERING</li><br>
+                            <li>IT ENGINEERING</li><br>
+                            <li>CIVIL ENGINEERING</li><br>
+                            <li>ELECTRICAL ENGINEERING</li><br>
+                            <li>E&TC ENGINEERING</li><br>
+                        </ul>
+                        
+                    
+                    </section>
+                    <article id="maincontent">
+                        
+                        <p><b>Zeal Education Society is established in year 1996 by Hon. Shri S. M. Katkar, an eminent industrialist committed to noble cause of education. Society runs eight institutes from Pre-primary to PhD courses. It caters to educational needs of more than 7000 students, 
+                              and it’s continuously expanding to cope up with growing demands in the field of technical education.</b></p><br>
+                        <p><b>ZCOER is established in 2007 which symbolized the beginning of new era in technical 
+                            education. The college offers UG engineering degree courses in Civil Engineering, 
+                            Computer Engineering, and Electrical Engineering, Information Technology, 
+                            Electronics & Telecommunication  and Mechanical Engineering. The college also offers 
+                            PG courses in Computer Engineering, Electrical Engineering (Power System), Electronics 
+                            & Telecommunication (VLSI and Embedded System), Mechanical Engineering (ME Design / CADEM)
+                            and Master of Business Administration. The institute is also granted as PhD research center in
+                            Computer Engineering, Electronics & Telecommunication and Mechanical Engineering under 
+                            Savitribai Phule Pune University, Pune (SPPU) since 2013.</b></p>
+                    
+                        </article>
+                    <section id="rightsidebar">
+                        <h2>Admission Enquiry:</h2><br><br>
+                        <form id="tab1">
+                            <table id="tab"> 
+                                
+                                <tr><th><input type="text"placeholder="Enter Full Name"><br><br></th></tr>
+                                <tr><th><input type="number"placeholder="Enter Phone number"><br><br></th></tr>
+                                <tr><th><input type="email"placeholder="Enter EmailID" ><br><br></th></tr>
+                                <tr><th><input type="text"placeholder="Enter City Name" ><br><br></th></tr>
+                                <tr><th><input type="submit" ></th></tr>
+                             </table>
+                        </form>
+                                
+                    </section>
+                </section>
+
+            <footer id="footer">
+            Copyright &copy.2021
+            </footer>
+        </main>  
+    </body>
+</html>

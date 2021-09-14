@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Assignment Layout </title>
+        <link rel="stylesheet" href="styleassignment.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="banner">
+              <img src="images/food2.jpg" alt="no images" width="100%" height="400px">
+            </div>
+
+            <div id="maincontent">
+                <div id="block1">
+                    
+                </div>
+                <div id="block2">
+                    
+                </div>
+                <div id="block3">
+                    
+                </div>
+                <div id="block4">
+                    
+                </div>
+                <div id="block5">
+                    
+                </div>
+                <div id="block6">
+                    
+                </div>
+                <div id="block7">
+                    
+                </div>
+                <div id="block8">
+                    
+                </div>
+                <div id="block9">
+                    
+                </div>
+
+            </div>
+            <div id="clr">
+
+            </div>
+            <div id="footer">
+                <div id=footb1>
+
+                </div>
+                <div id=footb2>
+                    
+                </div>
+                <div id=footb3>
+                    
+                </div>
+                <div id=footb4>
+                    
+                </div>
+                <div id=footb5>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
